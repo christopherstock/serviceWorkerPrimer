@@ -6,8 +6,7 @@
     console.log(     APPLICATION_TITLE );
     document.title = APPLICATION_TITLE;
 
-
-
+    // register service worker
     if ( 'serviceWorker' in navigator ) {
         navigator.serviceWorker.register(
             'js/serviceWorker.js',
